@@ -1,0 +1,67 @@
+body,
+h1, h2, h3, h4, h5, h6,
+p{
+	margin: 0;
+}
+img {
+	border-style: none;
+}
+#weatherWidget{
+  font-family: 'News Cycle', sans-serif;
+  width: 300px;
+  margin: 50px auto;
+  box-shadow: 5px 10px 37px 16px rgba(0,0,0,0.14);
+	#topSection, #bottomSection{
+	  background-color: #00C8E5;
+	}
+	#topSection, #main{
+	  display: flex;
+	  justify-content: space-between;
+	}
+	#topSection{
+		#topLeft{
+		  padding-left: 10px;
+		  font-size: larger;
+		}
+		#icon{
+		  width: 80px;
+			img{
+			  width: 100%;
+			}
+		}
+	}
+	#main{
+		#left p{
+		  padding-left: 10px;
+		  font-size: 70px;
+		  font-weight: bold;
+		}
+		#right{
+		  margin-right: 10px;
+			h2{
+			  font-size: 16px;
+			  border-bottom: 1px solid orange;
+			}
+			p{
+			  font-size: 17px;
+				span{
+				  font-weight: bold;
+				}
+			}
+			p:nth-child(2) span{
+			  margin-left: 39px;
+			}
+			p:nth-child(3) span{
+			  margin-left: 14px;
+			}
+			p:nth-child(4) span{
+			  margin-left: 15px;
+			}
+		}
+	}
+	#bottomSection p{
+	  font-size: 15px;
+	  text-align: right;
+	  margin-right: 10px;
+	}
+}
